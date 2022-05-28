@@ -225,8 +225,8 @@ body {
   })
 })
 
-//client.login(process.env.token)
-client.login('ODI1Njc2MjkzNDY2NjE5OTA1.YGBY-A.Dgs4OlNLHBEJln5WcF3ueplu9wY')
+client.login(process.env.token)
+
 ws.onmessage = async (data) => {
 
   const o = JSON.parse(data.data)  

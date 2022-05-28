@@ -1,0 +1,25 @@
+{
+  "name": "earthquak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "akikaki <datatensouakikaki@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@keyv/sqlite": "^3.5.1",
+    "async-file": "^2.0.2",
+    "discord.js": "^13.6.0",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "heroku": "^7.60.1",
+    "project-type": "^4.0.1",
+    "request": "^2.88.2",
+    "serve-favicon": "^2.5.0",
+    "simplify-geojson": "^1.0.5",
+    "to-readable-stream": "^3.0.0",
+    "ws": "^8.5.0"
+  }
+}
